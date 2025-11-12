@@ -28,7 +28,7 @@ The plot highlights the mean per region (triangle marker) and labels notable cou
 st.markdown("---")
 
 # --- Load merged dataset ---
-data_path = os.path.join("data", "st315_data.csv")
+data_path = os.path.join("data", "st01_data.csv")
 if not os.path.exists(data_path):
     st.error(f"Required file not found: {data_path}")
     st.stop()
